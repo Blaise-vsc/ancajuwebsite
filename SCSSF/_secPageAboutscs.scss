@@ -1,0 +1,15 @@
+.secondePageabout {
+  background: #171717;
+  color: white;
+}
+.img_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 10px;
+}
+.autoFit {
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
