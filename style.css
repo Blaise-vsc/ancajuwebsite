@@ -114,7 +114,7 @@ body a:hover {
 }
 @media (max-width: 480px) {
   .nev_container .headerCommon {
-    padding: 0px;
+    display: none;
   }
 }
 .nev_container .welcomeHeader {
