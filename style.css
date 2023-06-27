@@ -143,7 +143,6 @@ body a:hover {
 @media (max-width: 768px) {
   .nev_container footer {
     width: 100vw;
-    bottom: -2rem;
   }
 }
 
