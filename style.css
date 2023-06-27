@@ -143,6 +143,8 @@ body a:hover {
 @media (max-width: 768px) {
   .nev_container footer {
     width: 100vw;
+    background: url(../GIF/karibu\ kwetu.gif);
+    background-size: cover;
   }
 }
 
