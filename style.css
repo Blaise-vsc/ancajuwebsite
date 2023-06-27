@@ -34,7 +34,7 @@ body a:hover {
   flex-direction: column;
   padding-bottom: 2rem;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .container {
     gap: 0px;
     background: linear-gradient(to left, rgba(0, 0, 0, 0.072), rgba(0, 0, 0, 0.801)), url(../img/gbsmoll.jpg);
@@ -91,7 +91,7 @@ body a:hover {
   color: antiquewhite;
   font-size: 165%;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .socialMedia {
     display: none;
   }
@@ -101,7 +101,7 @@ body a:hover {
   max-width: 1024px;
   min-height: 90vh;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nev_container {
     width: 100%;
   }
@@ -112,9 +112,9 @@ body a:hover {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nev_container .headerCommon {
-    display: none;
+    padding: 0px;
   }
 }
 .nev_container .welcomeHeader {
@@ -124,7 +124,7 @@ body a:hover {
   position: relative;
   padding-right: 20rem;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nev_container .welcomeHeader {
     width: 100%;
     padding: 0px;
@@ -140,7 +140,7 @@ body a:hover {
   position: absolute;
   bottom: 0%;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nev_container footer {
     display: none;
     bottom: -2rem;
@@ -169,7 +169,7 @@ body a:hover {
 .acceil a {
   color: hsl(51, 99%, 54%);
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .acceil a {
     color: black;
   }
@@ -189,7 +189,7 @@ body a:hover {
   color: white;
   font-size: 200%;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nav_containinMiddle_element .bienVenu {
     padding: 0rem 1rem;
   }
@@ -207,7 +207,7 @@ body a:hover {
   justify-content: center;
   flex-direction: row;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .underWelcome {
     width: 100vw;
   }
@@ -227,7 +227,7 @@ body a:hover {
 .underWelcome .img_underWelcome img {
   width: 70%;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .underWelcome .img_underWelcome img {
     display: none;
   }
@@ -236,7 +236,7 @@ body a:hover {
 .socialMedia_HIDDEN {
   display: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .socialMedia_HIDDEN {
     display: flex;
     align-items: center;
@@ -265,9 +265,15 @@ body a:hover {
 .booknown a {
   color: rgb(0, 0, 0);
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .booknown {
     position: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footeroo {
+    display: none;
   }
 }
 
