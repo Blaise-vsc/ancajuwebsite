@@ -24,7 +24,7 @@ body {
       rgba(0, 0, 0, 0.255),
       rgba(0, 0, 0, 0.801)
     ),
-    url(../img/1111.jpg);
+    url(../img/1111_1.webp);
   background-size: cover;
   background-attachment: center center;
   display: flex;
@@ -40,7 +40,7 @@ body {
         rgba(0, 0, 0, 0.072),
         rgba(0, 0, 0, 0.801)
       ),
-      url(../img/gbsmoll.jpg);
+      url(../img/gbsmoll.webp);
     background-size: cover;
     background-attachment: center center;
   }
@@ -54,7 +54,7 @@ body {
     justify-content: space-between;
     background-color: #15120244;
     backdrop-filter: blur(24px);
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       align-items: start;
       justify-content: center;
       padding: 0px;
@@ -66,14 +66,14 @@ body {
       align-items: center;
       justify-content: center;
       // background-color: yellow;
-      @media (max-width: 480px) {
+      img {
+        width: 100%;
+      }
+      @media (max-width: 768px) {
         width: 100%;
         img {
           width: 130%;
         }
-      }
-      img {
-        width: 40%;
       }
     }
   }

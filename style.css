@@ -24,7 +24,7 @@ body a:hover {
 .container {
   width: 100vw;
   min-height: 100vh;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.255), rgba(0, 0, 0, 0.801)), url(../img/1111.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.255), rgba(0, 0, 0, 0.801)), url(../img/1111_1.webp);
   background-size: cover;
   background-attachment: center center;
   display: flex;
@@ -37,7 +37,7 @@ body a:hover {
 @media (max-width: 768px) {
   .container {
     gap: 0px;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.072), rgba(0, 0, 0, 0.801)), url(../img/gbsmoll.jpg);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.072), rgba(0, 0, 0, 0.801)), url(../img/gbsmoll.webp);
     background-size: cover;
     background-attachment: center center;
   }
@@ -53,7 +53,7 @@ body a:hover {
   -webkit-backdrop-filter: blur(24px);
           backdrop-filter: blur(24px);
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .container header {
     align-items: start;
     justify-content: center;
@@ -67,16 +67,16 @@ body a:hover {
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 480px) {
+.container header .logo img {
+  width: 100%;
+}
+@media (max-width: 768px) {
   .container header .logo {
     width: 100%;
   }
   .container header .logo img {
     width: 130%;
   }
-}
-.container header .logo img {
-  width: 40%;
 }
 
 .socialMedia {
@@ -395,7 +395,6 @@ body a:hover {
   padding: 10px 20px;
   font-size: 120%;
   font-weight: bolder;
-  background: hsl(51, 99%, 54%);
   background: rgb(35, 141, 176);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   color: aliceblue;
