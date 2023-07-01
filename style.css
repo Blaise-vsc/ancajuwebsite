@@ -468,6 +468,7 @@ body a:hover {
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
   color: rgb(23, 23, 23);
+  border-radius: 10px;
   border: none;
   cursor: pointer;
 }
