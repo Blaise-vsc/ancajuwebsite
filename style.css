@@ -541,7 +541,7 @@ body a:hover {
 
 .bookImage {
   width: 150px;
-  padding: 10px 25px;
+  padding: 7px 20px;
   background: hsl(51, 99%, 54%);
   font-size: 120%;
   font-weight: bolder;
@@ -558,11 +558,15 @@ body a:hover {
   text-decoration: none;
   width: 100%;
   height: 100%;
+  color: black;
 }
 @media (max-width: 768px) {
   .bookImage {
     position: absolute;
     bottom: 1.5%;
+  }
+  .bookImage a {
+    font-size: 140%;
   }
 }
 
