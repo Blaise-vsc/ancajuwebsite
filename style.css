@@ -563,7 +563,7 @@ body a:hover {
 @media (max-width: 768px) {
   .bookImage {
     position: absolute;
-    bottom: 2%;
+    bottom: 0%;
   }
 }
 
