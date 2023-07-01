@@ -87,7 +87,7 @@ body {
   gap: 15px;
   a {
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(253, 253, 253);
     font-size: 165%;
   }
   @media (max-width: 768px) {
@@ -237,12 +237,17 @@ body {
     // margin-top: 4rem;
     a {
       text-decoration: none;
-      color: antiquewhite;
+      color: rgb(255, 255, 255);
       font-size: 200%;
     }
   }
 }
 
+.footeroo {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
 .booknown {
   background: $yello;
   // height: 100%;
@@ -254,10 +259,5 @@ body {
   }
   @media (max-width: 768px) {
     position: none;
-  }
-}
-.footeroo {
-  @media (max-width: 768px) {
-    display: none;
   }
 }

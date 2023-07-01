@@ -1,5 +1,5 @@
 .secondePageabout {
-  background: #171717;
+  background: #000000;
   color: white;
 }
 .img_container {
@@ -8,6 +8,7 @@
   gap: 10px;
 }
 .autoFit {
+  position: relative;
   img {
     width: 100%;
     border-radius: 10px;

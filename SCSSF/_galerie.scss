@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    transition: all 0.5s;
+    transition: all 0.4s;
     &:hover {
       .dropdown-content {
         bottom: -500%;
@@ -75,6 +75,6 @@
   background-color: #f1f1f1;
 }
 
-// .dropdown:hover .dropdown-content {
-//   display: block;
-// }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
