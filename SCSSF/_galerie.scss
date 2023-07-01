@@ -58,6 +58,17 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  gap: 9px;
+}
+.select {
+  width: 100%;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  option {
+    display: flex;
+  }
 }
 
 .dropdown-content a:hover {
