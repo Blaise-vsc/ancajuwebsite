@@ -442,6 +442,7 @@ body a:hover {
 }
 @media (max-width: 768px) {
   .dropdown {
+    background: hsl(51, 99%, 54%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -453,13 +454,20 @@ body a:hover {
     left: -30%;
     opacity: 100%;
   }
+  .dropdown i {
+    font-size: 190%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .dropbtn {
-  background-color: #4caf50;
-  color: white;
-  padding: 12px;
-  font-size: 16px;
+  width: 70%;
+  background-color: rgba(16, 6, 33, 0.1019607843);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  color: rgb(23, 23, 23);
   border: none;
   cursor: pointer;
 }
