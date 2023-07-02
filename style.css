@@ -126,8 +126,11 @@ body a:hover {
 }
 @media (max-width: 1024px) {
   .nev_container .welcomeHeader {
+    position: sticky;
+    top: 0%;
     width: 100%;
     padding: 0px;
+    z-index: 2000;
   }
   .nev_container .welcomeHeader .nav_childenInTheSecHeader {
     width: 100%;

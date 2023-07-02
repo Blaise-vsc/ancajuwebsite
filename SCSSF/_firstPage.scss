@@ -117,8 +117,11 @@ body {
     position: relative;
     padding-right: 20rem;
     @media (max-width: 1024px) {
+      position: sticky;
+      top: 0%;
       width: 100%;
       padding: 0px;
+      z-index: 2000;
       // gap: 10px;
       .nav_childenInTheSecHeader {
         width: 100%;
