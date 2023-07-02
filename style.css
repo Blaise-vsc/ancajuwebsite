@@ -124,7 +124,7 @@ body a:hover {
   position: relative;
   padding-right: 20rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .nev_container .welcomeHeader {
     width: 100%;
     padding: 0px;
@@ -239,6 +239,7 @@ body a:hover {
 }
 @media (max-width: 768px) {
   .socialMedia_HIDDEN {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,7 +247,6 @@ body a:hover {
     height: 30px;
     padding: 40px;
     background: #0c0702;
-    width: 100%;
     position: fixed;
     bottom: 0%;
     left: 0%;
@@ -459,7 +459,7 @@ body a:hover {
   position: relative;
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 788px) {
   .dropdown {
     background: hsl(51, 99%, 54%);
     display: flex;
@@ -572,4 +572,115 @@ body a:hover {
 
 .reserverbook {
   font-weight: bolder;
+}
+
+.form_container {
+  background: url(../fomrBg/gbLargScreen.webp);
+  background-size: cover;
+}
+
+.bookingContainer {
+  flex-direction: row;
+  background: hsl(51, 99%, 54%);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  min-height: 80vh;
+  gap: 0px;
+}
+
+.booking_nav_children_left {
+  width: 25%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .booking_nav_children_left {
+    display: none;
+  }
+}
+.booking_nav_children_left .gifNav {
+  width: 100%;
+  height: 100%;
+}
+.booking_nav_children_left .gifNav img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.booking_nav_children_right {
+  width: 75%;
+  height: 100%;
+  background: lightblue;
+  padding: 1rem 0rem;
+}
+@media (max-width: 768px) {
+  .booking_nav_children_right {
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 1rem;
+  }
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #6c757d;
+}
+
+.inputT {
+  font-size: 120%;
+}
+
+.inputTt {
+  font-size: 150%;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+textarea:focus {
+  border-color: #80bdff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 5px;
 }/*# sourceMappingURL=style.css.map */

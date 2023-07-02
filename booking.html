@@ -41,49 +41,8 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="logo">
-          <img
-            title="Logo de l'Ancaju Guest House à Lubumbashi, Congo-Kinshasa"
-            src="./logos/white.webp"
-            alt="Logo de l'Ancaju Guest House à Lubumbashi, Congo-Kinshasa, avoir un Séjour de qualité dans a lubumbashi dans la commune annexe du Haut-Katanga" />
-        </div>
-
-        <div class="socialMedia">
-          <a
-            title="Compte Facebook"
-            href="https://www.facebook.com/profile.php?id=100091990845281">
-            <i class="bx bxl-facebook-circle"></i>
-          </a>
-          <a title="Page Facebook" href="https://www.facebook.com/ancaju243">
-            <i class="bx bxl-facebook-square"></i>
-          </a>
-          <a
-            title="Whatsapp"
-            href="https://www.whatsapp.com/catalog/243970030810/">
-            <i class="bx bxl-whatsapp"></i>
-          </a>
-          <a
-            title="Compte Instagrame"
-            href="https://instagram.com/ancaju4?igshid=MzRlODBiNWFlZA==">
-            <i class="bx bxl-instagram-alt"></i>
-          </a>
-
-          <a
-            title="Compte Linkdin"
-            href=" https://www.linkedin.com/in/ancaju-guest-house-05b44827b/">
-            <i class="bx bxl-linkedin"></i>
-          </a>
-          <a
-            title="Localisation Map"
-            href="https://goo.gl/maps/M1s318teEZxjUdqbA">
-            <i class="bx bxs-map"></i>
-          </a>
-        </div>
-      </header>
       <!--  -->
-      <div class="container about_Us_container">
+      <div class="container about_Us_container form_container">
         <header>
           <div class="logo">
             <img src="./logos/white.webp" alt="" />
@@ -165,77 +124,50 @@
               </div>
             </div>
           </nav>
+          <div class="nav_containinMiddle_element containe_element_about classForm bookingContainer">
+        <!-- text area -->
+        <div class="booking_nav_children_left">
+          <div class="gifNav">
+            <img src="https://res.cloudinary.com/drrabika6/image/upload/v1688289149/Open_House_1080_2400_px_lq9lxh.gif" alt="">
+          </div>
 
-          <div class="nav_containinMiddle_element containe_element_about">
-            <div class="welcom_aboutUs">
-              <h1>BIENVENUE A ANCAJU GUEST HOUSE</h1>
-              <div class="line welcom_aboutUs">
-                <img
-                  title="Trait subtil mettant en valeur le logo de l'Ancaju Guest House à Lubumbashi"
-                  src="./logos/LINE.webp"
-                  alt="Ligne élégante soulignant le logo de l'Ancaju Guest House à Lubumbashi" />
-              </div>
-            </div>
-            <div class="bioAbout">
-              <p class="text">
-                votre destination idéale pour un séjour mémorable à Lubumbashi,
-                Congo-Kinshasa ! Située dans la charmante Commune Annexe, notre
-                maison d'hôtes vous offre une atmosphère accueillante et
-                paisible,Réservez dès maintenant et laissez-nous prendre soin de
-                vous lors de votre séjour à Lubumbashi.
-              </p>
-            </div>
+        </div>
 
-            <div class="about_Image img_container">
-              <div class="autoFit">
-                <img
-                  title="Reposez-vous dans notre chambre élégante et bien aménagée, offrant une télévision, une garde-robe spacieuse, une commode pratique, une décoration soignée, le WiFi et un service de chambre attentif à Ancaju Guest House"
-                  src="./img/gal1_1.webp"
-                  alt="Une chambre chaleureuse et accueillante vous attend avec une télévision, une garde-robe pratique, une commode, une peinture agréable, une connexion WiFi et un service de chambre de qualité à Ancaju Guest House" />
-              </div>
-              <div class="autoFit">
-                <img
-                  title="Chambre impeccablement aménagée avec télévision, garde-robe organisée, commode pratique, une peinture apaisante et une connexion WiFi fiable à Ancaju Guest House"
-                  src="./img/gal2.webp"
-                  alt="Chambre impeccablement aménagée avec télévision, garde-robe organisée, commode pratique, une peinture apaisante et une connexion WiFi fiable à Ancaju Guest House
-  . Découvrez le confort moderne dans notre chambre avec télévision, garde-robe spacieuse, commode, une agréable peinture et une connexion WiFi accessible à Ancaju Guest House.
-  Retrouvez le confort chez vous avec notre chambre équipée d'une télévision, d'une garde-robe fonctionnelle, d'une commode pratique, d'une peinture attrayante, du WiFi et d'un service de chambre attentionné à Ancaju Guest House" />
-              </div>
-              <div class="autoFit">
-                <img
-                  title="Chambre confortable et bien équipée avec télévision,
-                garde-robe, commode et WiFi à Ancaju Guest House, Lubumbashi,
-                Congo-Kinshasa."
-                  src="./img/gal3.webp"
-                  alt="Chambre confortable
-                et bien équipée avec télévision, garde-robe, commode et WiFi à
-                Ancaju Guest House, Lubumbashi, Congo-Kinshasa. Détendez-vous
-                dans notre chambre élégante avec télévision, garde-robe
-                spacieuse, commode et connexion WiFi haut débit à Ancaju Guest
-                House. Profitez de votre séjour dans une chambre soigneusement
-                décorée avec télévision, garde-robe fonctionnelle, commode et
-                accès WiFi gratuit à Ancaju Guest House Chambre impeccablement
-                aménagée avec télévision, garde-robe organisée, commode
-                pratique, une peinture apaisante et une connexion WiFi fiable à
-                Ancaju Guest House" />
-              </div>
-            </div>
+        <div class="booking_nav_children_right"><form id="booking-form">
+          <h1>Ancaju Guest House Booking</h1>
+          <label for="name">Nom</label>
+          <input class="inputT" type="text" id="name" name="name" required>
+        
+          <label for="email">Email</label>
+          <input class="inputT" type="email" id="email" name="email" required>
+        
+          <label for="check-in-date">Date d'arrivée</label>
+          <input class="inputTt" type="date" id="check-in-date" name="check-in-date" required>
+        
+          <label for="check-out-date">Date de départ</label>
+          <input class="inputTt" type="date" id="check-out-date" name="check-out-date" required>
+        
+          <label for="message">Message</label>
+          <textarea class="inputTt" id="message" name="message" rows="5"></textarea>
+        
+          <button type="submit">Book Now</button>
+        </form></div>
+        
 
-            <div class="seeallabout">
-              <p>Voir tout</p>
-            </div>
+         <!-- text area -->
           </div>
         </div>
+        
       </div>
       <!--  -->
       <div class="socialMedia socialMedia_HIDDEN">
-        <a
+        <!-- <a
           title="Compte Facebook"
           href="https://www.facebook.com/profile.php?id=100091990845281">
           <i class="bx bxl-facebook-circle"></i>
-        </a>
+        </a> -->
         <a title="Page Facebook" href="https://www.facebook.com/ancaju243">
-          <i class="bx bxl-facebook-square"></i>
+          <i class="bx bxl-facebook-circle"></i>
         </a>
         <a
           title="Whatsapp"
@@ -259,7 +191,7 @@
           <i class="bx bxs-map"></i>
         </a>
       </div>
-      <!--  -->
+      <!-- <footer class="headerCommon"></footer> -->
     </div>
   </body>
 </html>
