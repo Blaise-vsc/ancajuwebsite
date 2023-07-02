@@ -288,6 +288,11 @@ body a:hover {
   justify-content: center;
   flex-direction: column;
 }
+@media (max-width: 768px) {
+  .body_about h1 {
+    margin: 0px;
+  }
+}
 .body_about .aboutUsHeaderCommun .nav_childenInTheSecHeader a {
   transition: all 0.2s;
 }
@@ -318,12 +323,6 @@ body a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (max-width: 480px) {
-  .line img {
-    display: none;
-  }
-}
-
 .welcom_aboutUs {
   display: flex;
   align-items: center;
@@ -337,7 +336,7 @@ body a:hover {
 @media (max-width: 480px) {
   .welcom_aboutUs {
     padding: 0px;
-    gap: 15px;
+    gap: 0px;
   }
 }
 
