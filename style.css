@@ -111,17 +111,22 @@ body a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: url(https://res.cloudinary.com/drrabika6/image/upload/v1688302646/lg_keyf4m.gif);
+  background-size: cover;
 }
-@media (max-width: 768px) {
+@media (max-width: 1025px) {
   .nev_container .headerCommon {
-    padding: 0px;
+    width: 100%;
   }
 }
 .nev_container .welcomeHeader {
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  z-index: 2000;
   width: 1024px;
   height: 45px;
   background: #f3f4f6;
-  position: relative;
   padding-right: 20rem;
 }
 @media (max-width: 1024px) {
@@ -461,7 +466,7 @@ body a:hover {
   position: relative;
   display: none;
 }
-@media (max-width: 788px) {
+@media (max-width: 478px) {
   .dropdown {
     background: hsl(51, 99%, 54%);
     display: flex;
@@ -472,7 +477,7 @@ body a:hover {
   }
   .dropdown:hover .dropdown-content {
     bottom: -500%;
-    left: -30%;
+    left: -50%;
     opacity: 100%;
   }
   .dropdown i {

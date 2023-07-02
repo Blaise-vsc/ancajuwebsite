@@ -106,15 +106,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @media (max-width: 768px) {
-      padding: 0px;
+    background: url(https://res.cloudinary.com/drrabika6/image/upload/v1688302646/lg_keyf4m.gif);
+    background-size: cover;
+    @media (max-width: 1025px) {
+      width: 100%;
     }
   }
   .welcomeHeader {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+
+    z-index: 2000;
     width: 1024px;
     height: 45px;
     background: #f3f4f6;
-    position: relative;
+    // position: relative;
     padding-right: 20rem;
     @media (max-width: 1024px) {
       position: sticky;

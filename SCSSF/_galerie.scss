@@ -3,17 +3,18 @@
   height: 100%;
   position: relative;
   display: none;
-  @media (max-width: 788px) {
+  @media (max-width: 478px) {
     background: $yello;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     transition: all 0.4s;
+
     &:hover {
       .dropdown-content {
         bottom: -500%;
-        left: -30%;
+        left: -50%;
         opacity: 100%;
       }
     }
