@@ -541,8 +541,8 @@ body a:hover {
   }
   .dropdown:hover .dropdown-content {
     display: block;
-    bottom: -500%;
-    left: -50%;
+    bottom: -497%;
+    left: -25%;
     opacity: 100%;
   }
   .dropdown i {
