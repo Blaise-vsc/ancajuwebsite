@@ -3,6 +3,7 @@
   height: 100%;
   position: relative;
   display: none;
+
   @media (max-width: 478px) {
     background: $yello;
     display: flex;
@@ -52,6 +53,10 @@
   bottom: -300%;
   left: -30%;
   opacity: 0%;
+  @media (max-width: 486px) {
+    bottom: -300%;
+    left: -180%;
+  }
 }
 
 .dropdown-content a {

@@ -268,6 +268,26 @@ body a:hover {
     font-size: 200%;
   }
 }
+@media (max-width: 260px) {
+  .socialMedia_HIDDEN {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20px;
+    padding: 20px;
+    background: #0c0702;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    justify-content: space-around;
+  }
+  .socialMedia_HIDDEN a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+  }
+}
 
 @media (max-width: 768px) {
   .footeroo {
@@ -319,6 +339,19 @@ body a:hover {
 
 .aboutUsHeaderCommun {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+@media (max-width: 768px) {
+  .aboutUsHeaderCommun .acceil_lg_block {
+    display: none;
+  }
+}
+.aboutUsHeaderCommun .acceil_lg_none {
+  display: none;
+}
+@media (max-width: 768px) {
+  .aboutUsHeaderCommun .acceil_lg_none {
+    display: flex;
+  }
 }
 
 .line {
@@ -461,6 +494,18 @@ body a:hover {
   width: 100%;
   border-radius: 10px;
 }
+@media (max-width: 260px) {
+  .autoFit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .autoFit img {
+    width: 70%;
+    border-radius: 10px;
+  }
+}
 
 .dropdown {
   width: 50%;
@@ -514,6 +559,12 @@ body a:hover {
   bottom: -300%;
   left: -30%;
   opacity: 0%;
+}
+@media (max-width: 486px) {
+  .dropdown-content {
+    bottom: -300%;
+    left: -180%;
+  }
 }
 
 .dropdown-content a {

@@ -108,6 +108,7 @@ body {
     justify-content: space-between;
     background: url(https://res.cloudinary.com/drrabika6/image/upload/v1688302646/lg_keyf4m.gif);
     background-size: cover;
+
     @media (max-width: 1025px) {
       width: 100%;
       background: url(https://res.cloudinary.com/drrabika6/image/upload/v1688306066/karibukwetu_itkks4.gif);
@@ -251,6 +252,27 @@ body {
       text-decoration: none;
       color: rgb(255, 255, 255);
       font-size: 200%;
+    }
+  }
+  @media (max-width: 260px) {
+    // display: none;
+    width: 100%;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 20px;
+    padding: 20px;
+    background: #0c0702;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    justify-content: space-around;
+    // margin-top: 4rem;
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: 120%;
     }
   }
 }
