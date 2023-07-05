@@ -34,6 +34,11 @@
       rel="stylesheet" />
     <!--  -->
     <link rel="stylesheet" href="./style.css" />
+    <!--sweper  -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
     <!--  -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -80,6 +85,9 @@
             </a>
           </div>
         </header>
+        <!-- swipper star -->
+        <!-- swipper end-->
+        <!-- container -->
         <div class="nev_container about">
           <nav class="welcomeHeader headerCommon aboutUsHeaderCommun welcomeHeaderBokoking">
             <div class="nav_childenInTheSecHeader acceil">
@@ -133,40 +141,136 @@
 
         </div>
 
-        <div class="booking_nav_children_right">
-          <form action="https://formsubmit.co/23a3e1d51c2c9f28db7b4c84df7298b2" method="POST" id="booking-form" >
-          <h1>Ancaju Guest House Booking</h1>
-          <label for="name">Nom</label>
-          <input class="inputT" type="text" id="name" name="name" required>
         
-          <label for="email">Email</label>
-          <input class="inputT" type="email" id="email" name="email" required>
+      <!-- swiper start -->
+       <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    
+      <div class="booking_nav_children_right swiper-slide">
+        <form action="https://formsubmit.co/23a3e1d51c2c9f28db7b4c84df7298b2" method="POST" id="booking-form" >
+        <h1>Ancaju Guest House Booking</h1>
+        <label for="name">Nom</label>
+        <input class="inputT" type="text" id="name" name="name" placeholder="Insérez les deux noms." required>
+    
+        <label for="email">Num Whatsapp</label>
+        <input class="inputT" type="number" id="phone" name="phone" placeholder="Insérez votre numéro de téléphone." required>
+      
+        <label for="email">Email</label>
+        <input class="inputT" type="email" id="email" name="email" placeholder="Insérez votre adresse e-mail" required>
+      
+        <label for="check-in-date">Date d'arrivée</label>
+        <input class="inputTt" type="date" id="check-in-date" name="check-in-date" required>
+      
+        <label for="check-out-date">Date de départ</label>
+        <input class="inputTt" type="date" id="check-out-date" name="check-out-date" required>
+      
+        <label for="message">Message</label>
+        <textarea class="inputTt" id="message" name="message" rows="5"></textarea>
+      
         
-          <label for="check-in-date">Date d'arrivée</label>
-          <input class="inputTt" type="date" id="check-in-date" name="check-in-date" required>
-        
-          <label for="check-out-date">Date de départ</label>
-          <input class="inputTt" type="date" id="check-out-date" name="check-out-date" required>
-        
-          <label for="message">Message</label>
-          <textarea class="inputTt" id="message" name="message" rows="5"></textarea>
-        
-          
-          <!--  -->
-          <input type="hidden" name="_next" value="https://lubumbashiancaju.netlify.app/thanks.html">
-          <input type="hidden" name="_subject" value="new form submission">
-          <input type="hidden" name="_cc" value="blaisebetua23@gmail.com,contact@ancaju.com">
-          <input type="hidden" name="_autoresponce" value="merci de nous  choisie ancaja guest house, Nous vous contactons dans quelque minutes">
-          <input type="hidden" name="_template" value="table">
-          <button type="submit">Book Now</button>
-        </form>
-      </div>
+        <!--  -->
+        <input type="hidden" name="_next" value="https://lubumbashiancaju.netlify.app/thanks.html">
+        <input type="hidden" name="_subject" value="!! ancaju formulaire de réservation en ligne">
+        <input type="hidden" name="_cc" value="blaisebetua23@gmail.com,contact@ancaju.com">
+      
+        <input type="hidden" name="_autoresponce" value="merci de nous  choisie ancaja guest house, Nous vous contactons dans quelque minutes">
+        <input type="hidden" name="_template" value="table">
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
+   
+    <!-- swipe 2 -->
+    
+      <div class="booking_nav_children_right swiper-slide">
+      <form action="https://formsubmit.co/23a3e1d51c2c9f28db7b4c84df7298b2" method="POST" id="booking-form" >
+      <h1>Ancaju Guest House Booking</h1>
+      <label for="name">Nom</label>
+      <input class="inputT" type="text" id="name" name="name" placeholder="Insérez les deux noms." required>
+  
+      <label for="email">Num Whatsapp</label>
+      <input class="inputT" type="number" id="phone" name="phone" placeholder="Insérez votre numéro de téléphone." required>
+    
+      <label for="email">Email</label>
+      <input class="inputT" type="email" id="email" name="email" placeholder="Insérez votre adresse e-mail" required>
+    
+      <label for="check-in-date">Date d'arrivée</label>
+      <input class="inputTt" type="date" id="check-in-date" name="check-in-date" required>
+    
+      <label for="check-out-date">Date de départ</label>
+      <input class="inputTt" type="date" id="check-out-date" name="check-out-date" required>
+    
+      <label for="message">Message</label>
+      <textarea class="inputTt" id="message" name="message" rows="5"></textarea>
+    
+      
+      <!--  -->
+      <input type="hidden" name="_next" value="https://lubumbashiancaju.netlify.app/thanks.html">
+      <input type="hidden" name="_subject" value="!! ancaju formulaire de réservation en ligne">
+      <input type="hidden" name="_cc" value="blaisebetua23@gmail.com,contact@ancaju.com">
+    
+      <input type="hidden" name="_autoresponce" value="merci de nous  choisie ancaja guest house, Nous vous contactons dans quelque minutes">
+      <input type="hidden" name="_template" value="table">
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+
+    <!-- swipe 3 -->
+    
+      <div class="booking_nav_children_right swiper-slide">
+      <form action="https://formsubmit.co/23a3e1d51c2c9f28db7b4c84df7298b2" method="POST" id="booking-form" >
+      <h1>Ancaju Guest House Booking</h1>
+      <label for="name">Nom</label>
+      <input class="inputT" type="text" id="name" name="name" placeholder="Insérez les deux noms." required>
+  
+      <label for="email">Num Whatsapp</label>
+      <input class="inputT" type="number" id="phone" name="phone" placeholder="Insérez votre numéro de téléphone." required>
+    
+      <label for="email">Email</label>
+      <input class="inputT" type="email" id="email" name="email" placeholder="Insérez votre adresse e-mail" required>
+    
+      <label for="check-in-date">Date d'arrivée</label>
+      <input class="inputTt" type="date" id="check-in-date" name="check-in-date" required>
+    
+      <label for="check-out-date">Date de départ</label>
+      <input class="inputTt" type="date" id="check-out-date" name="check-out-date" required>
+    
+      <label for="message">Message</label>
+      <textarea class="inputTt" id="message" name="message" rows="5"></textarea>
+    
+      
+      <!--  -->
+      <input type="hidden" name="_next" value="https://lubumbashiancaju.netlify.app/thanks.html">
+      <input type="hidden" name="_subject" value="!! ancaju formulaire de réservation en ligne">
+      <input type="hidden" name="_cc" value="blaisebetua23@gmail.com,contact@ancaju.com">
+    
+      <input type="hidden" name="_autoresponce" value="merci de nous  choisie ancaja guest house, Nous vous contactons dans quelque minutes">
+      <input type="hidden" name="_template" value="table">
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+      <!-- swiper end -->
         
 
          <!-- text area -->
           </div>
         </div>
-        
+        <!-- end container -->
       </div>
       <!--  -->
       <div class="socialMedia socialMedia_HIDDEN">
@@ -175,32 +279,34 @@
           href="https://www.facebook.com/profile.php?id=100091990845281">
           <i class="bx bxl-facebook-circle"></i>
         </a> -->
-        <a title="Page Facebook" href="https://www.facebook.com/ancaju243">
+        <!-- <a title="Page Facebook" href="https://www.facebook.com/ancaju243">
           <i class="bx bxl-facebook-circle"></i>
-        </a>
+        </a> -->
         <a
           title="Whatsapp"
           href="https://www.whatsapp.com/catalog/243970030810/">
           <i class="bx bxl-whatsapp"></i>
         </a>
-        <a
+        <!-- <a
           title="Compte Instagrame"
           href="https://instagram.com/ancaju4?igshid=MzRlODBiNWFlZA==">
           <i class="bx bxl-instagram-alt"></i>
-        </a>
+        </a> -->
 
-        <a
+        <!-- <a
           title="Compte Linkdin"
           href=" https://www.linkedin.com/in/ancaju-guest-house-05b44827b/">
           <i class="bx bxl-linkedin"></i>
-        </a>
-        <a
+        </a> -->
+        <!-- <a
           title="Localisation Map"
           href="https://goo.gl/maps/M1s318teEZxjUdqbA">
           <i class="bx bxs-map"></i>
-        </a>
+        </a> -->
       </div>
       <!-- <footer class="headerCommon"></footer> -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>;
+    <script src="./app.js"></script>
   </body>
 </html>
