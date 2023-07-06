@@ -143,12 +143,11 @@ body {
     height: 70px;
     background: #f2f6f9;
     position: absolute;
-    bottom: 0%;
+    // bottom: 0%;
     @media (max-width: 768px) {
       width: 100vw;
       background: url(../GIF/karibukwetu.gif);
       background-size: cover;
-      // bottom: -2rem;
     }
   }
 }
