@@ -146,6 +146,9 @@ body a:hover {
 .nev_container .hautKatanga {
   color: white;
 }
+.nev_container h2 {
+  font-size: 100%;
+}
 .nev_container footer {
   width: 1024px;
   height: 70px;
