@@ -143,6 +143,9 @@ body a:hover {
     width: 100%;
   }
 }
+.nev_container .hautKatanga {
+  color: white;
+}
 .nev_container footer {
   width: 1024px;
   height: 70px;
