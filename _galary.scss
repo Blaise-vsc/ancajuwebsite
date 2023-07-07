@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .bookings {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
@@ -13,7 +9,7 @@ img {
   width: 100%;
   object-fit: cover;
 }
-.container {
+.containerjb {
   min-width: 900px;
   margin: auto;
   min-height: 100vh;
