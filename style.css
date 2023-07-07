@@ -154,6 +154,7 @@ body a:hover {
   height: 70px;
   background: #f2f6f9;
   position: absolute;
+  bottom: 0%;
 }
 @media (max-width: 768px) {
   .nev_container footer {
