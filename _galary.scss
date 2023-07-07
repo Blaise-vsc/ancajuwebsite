@@ -3,10 +3,12 @@
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 2rem;
   padding: 5rem;
+  background: $yello;
 }
 img {
   width: 100%;
   object-fit: cover;
+  border-radius: 10px;
 }
 .containerjb {
   margin: auto;

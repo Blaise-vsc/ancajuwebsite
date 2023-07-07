@@ -854,12 +854,14 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 2rem;
   padding: 5rem;
+  background: hsl(51, 99%, 54%);
 }
 
 img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 10px;
 }
 
 .containerjb {
