@@ -873,5 +873,7 @@ img {
   .containerjb {
     width: 100vw;
     padding: 2rem;
+    margin-bottom: 4rem;
+    background: hsl(51, 99%, 54%);
   }
 }/*# sourceMappingURL=style.css.map */
