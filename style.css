@@ -698,6 +698,14 @@ body a:hover {
   border-radius: 10px;
 }
 
+.slideDeux {
+  background: rgb(3, 150, 199);
+}
+
+.slideTrois {
+  background: rgb(147, 22, 22);
+}
+
 .form_container {
   background: url(../fomrBg/gbLargScreen.webp);
   background-size: cover;
