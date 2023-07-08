@@ -938,8 +938,8 @@ img {
 }
 @media (max-width: 487px) {
   .containercont {
-    width: 90%;
-    height: 90%;
+    width: 90vw;
+    height: 90vh;
   }
 }
 @media (max-width: 487px) {
