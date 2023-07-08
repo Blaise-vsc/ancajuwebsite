@@ -1,5 +1,25 @@
 const imageInputEl = document.getElementById("imageInput");
 
+const voirTour = document.querySelector("#voirTout");
+const lastbtn = document.querySelector("#lastbtn");
+const middlebtn = document.querySelector("#middlebtn");
+
+console.log(middlebtn);
+
+voirTour.addEventListener("click", function () {
+  window.location = "galery.html";
+});
+lastbtn.addEventListener("click", function () {
+  window.location = "galery.html";
+});
+middlebtn.addEventListener("click", function () {
+  window.location = "galery.html";
+});
+
+
+
+
+
 //Get Query String
 const queryString = window.location.search;
 //Get the url Params
