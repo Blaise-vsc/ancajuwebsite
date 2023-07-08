@@ -16,10 +16,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: $yello;
   @media (max-width: 786px) {
     width: 100vw;
     padding: 2rem;
     margin-bottom: 4rem;
-    background: $yello;
   }
 }

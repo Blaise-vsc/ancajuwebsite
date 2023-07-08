@@ -870,12 +870,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: hsl(51, 99%, 54%);
 }
 @media (max-width: 786px) {
   .containerjb {
     width: 100vw;
     padding: 2rem;
     margin-bottom: 4rem;
-    background: hsl(51, 99%, 54%);
   }
 }/*# sourceMappingURL=style.css.map */
