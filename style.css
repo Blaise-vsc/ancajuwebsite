@@ -858,8 +858,11 @@ button {
 }
 
 @media (max-width: 487px) {
+  .form_container {
+    height: 50%;
+  }
   .form_container footer {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 }
 
