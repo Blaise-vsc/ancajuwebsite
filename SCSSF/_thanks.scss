@@ -2,8 +2,8 @@
   background: hsl(51, 99%, 54%);
   @media (max-width: 487px) {
     gap: 1rem;
-    height: 70%;
-    padding-bottom: 4rem;
+    height: 50%;
+    padding-bottom: 6rem;
     padding-top: 0rem;
   }
 }
@@ -36,4 +36,11 @@
 }
 .classfooter {
   bottom: 100%;
+}
+.form_container {
+  @media (max-width: 487px) {
+    footer {
+      margin-bottom: 5rem;
+    }
+  }
 }

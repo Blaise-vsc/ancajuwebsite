@@ -658,6 +658,10 @@ body a:hover {
   }
 }
 
+.footerThanks {
+  bottom: 100%;
+}
+
 .reserverbook {
   font-weight: bolder;
 }
@@ -813,8 +817,8 @@ button {
 @media (max-width: 487px) {
   .thank_container {
     gap: 1rem;
-    height: 70%;
-    padding-bottom: 4rem;
+    height: 50%;
+    padding-bottom: 6rem;
     padding-top: 0rem;
   }
 }
@@ -851,6 +855,12 @@ button {
 
 .classfooter {
   bottom: 100%;
+}
+
+@media (max-width: 487px) {
+  .form_container footer {
+    margin-bottom: 5rem;
+  }
 }
 
 .bookings {
