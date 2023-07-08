@@ -324,6 +324,10 @@ body a:hover {
   }
 }
 
+.alubumbashi {
+  color: #f2f6f9;
+}
+
 .body_about {
   min-height: 100vh;
   display: flex;
