@@ -2,6 +2,10 @@
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
   padding: 20px;
+  @media (max-width: 487px) {
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 .containercont {
@@ -11,6 +15,10 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  @media (max-width: 487px) {
+    width: 90%;
+    height: 90%;
+  }
   p {
     @media (max-width: 487px) {
       margin-bottom: 40px;

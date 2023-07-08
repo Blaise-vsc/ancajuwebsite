@@ -921,6 +921,12 @@ img {
   background-color: #f2f2f2;
   padding: 20px;
 }
+@media (max-width: 487px) {
+  .bodycont {
+    width: 100vw;
+    height: 100vh;
+  }
+}
 
 .containercont {
   max-width: 800px;
@@ -929,6 +935,12 @@ img {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 487px) {
+  .containercont {
+    width: 90%;
+    height: 90%;
+  }
 }
 @media (max-width: 487px) {
   .containercont p {
