@@ -1,3 +1,9 @@
+const voirTour = document.querySelector("#voirTout");
+
+voirTour.addEventListener("click", function () {
+  window.location = "galery.html";
+});
+
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
