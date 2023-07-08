@@ -1,6 +1,14 @@
 const voirTour = document.querySelector("#voirTout");
+const voirTourone = document.querySelector("#voirToutone");
+const voirTourtwo = document.querySelector("#voirTouttwo");
 
 voirTour.addEventListener("click", function () {
+  window.location = "galery.html";
+});
+voirTourone.addEventListener("click", function () {
+  window.location = "galery.html";
+});
+voirTourtwo.addEventListener("click", function () {
   window.location = "galery.html";
 });
 
