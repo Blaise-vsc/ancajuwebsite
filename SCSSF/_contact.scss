@@ -11,15 +11,32 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  p {
+    @media (max-width: 487px) {
+      margin-bottom: 40px;
+    }
+  }
 }
 
 h1 {
   text-align: center;
   margin-bottom: 20px;
+  @media (max-width: 487px) {
+    margin-bottom: 40px;
+  }
 }
 
 .contact-info {
   margin-bottom: 20px;
+  @media (max-width: 487px) {
+    margin-bottom: 30px;
+    ul,
+    p {
+      li {
+        font-size: 120%;
+      }
+    }
+  }
 }
 
 .contact-info p {
@@ -39,7 +56,11 @@ h1 {
 .map {
   text-align: center;
 }
-
+li {
+  @media (max-width: 487px) {
+    margin-bottom: 45px;
+  }
+}
 .map img {
   max-width: 100%;
   height: auto;
