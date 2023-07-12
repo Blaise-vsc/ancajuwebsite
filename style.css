@@ -1146,4 +1146,40 @@ main {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+main {
+  margin-top: 4rem;
+}
+@media (max-width: 478px) {
+  main {
+    margin-bottom: 1rem;
+  }
+}
+
+.serviceHeader {
+  width: 100vw;
+  padding: 1rem 3rem;
+  position: fixed;
+  top: 0%;
+  color: rgb(249, 242, 242);
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.serviceHeader .logo {
+  width: 120px;
+}
+@media (max-width: 487px) {
+  .serviceHeader .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.serviceHeader .logo img {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
