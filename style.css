@@ -714,6 +714,7 @@ body a:hover {
 }
 
 .form_container {
+  width: 100vh;
   background: url(../fomrBg/gbLargScreen.webp);
   background-size: cover;
 }
@@ -832,9 +833,9 @@ button {
 @media (max-width: 487px) {
   .thank_container {
     gap: 1rem;
-    height: 50%;
-    padding-bottom: 6rem;
-    padding-top: 0rem;
+    height: 100%;
+    padding-top: 6rem;
+    justify-content: start;
   }
 }
 
