@@ -714,7 +714,6 @@ body a:hover {
 }
 
 .form_container {
-  width: 100vh;
   background: url(../fomrBg/gbLargScreen.webp);
   background-size: cover;
 }
