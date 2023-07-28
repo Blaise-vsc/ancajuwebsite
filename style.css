@@ -877,6 +877,11 @@ button {
   }
 }
 
+.serviceClients {
+  position: absolute;
+  top: 0%;
+}
+
 .bookings {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
@@ -1001,9 +1006,19 @@ h1 {
 }
 
 .map img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   border-radius: 5px;
+}
+@media (max-width: 780px) {
+  .map img {
+    max-width: 100%;
+  }
+}
+
+.maito {
+  text-decoration: none;
+  color: black;
 }
 
 /* Reset styles */

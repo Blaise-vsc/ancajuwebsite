@@ -72,7 +72,14 @@ li {
   }
 }
 .map img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   border-radius: 5px;
+  @media (max-width: 780px) {
+    max-width: 100%;
+  }
+}
+.maito {
+  text-decoration: none;
+  color: black;
 }
