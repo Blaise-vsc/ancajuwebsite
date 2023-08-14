@@ -396,6 +396,12 @@ body a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width: 480px) {
+  .line img {
+    width: 60%;
+  }
+}
+
 .welcom_aboutUs {
   display: flex;
   align-items: center;
@@ -409,7 +415,7 @@ body a:hover {
 @media (max-width: 480px) {
   .welcom_aboutUs {
     padding: 0px;
-    gap: 0px;
+    gap: 15pxpx;
   }
 }
 

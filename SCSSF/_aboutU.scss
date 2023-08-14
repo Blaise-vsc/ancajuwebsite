@@ -58,11 +58,9 @@
   img {
     width: 40%;
     object-fit: cover;
-  }
-  @media (max-width: 480px) {
-    // img {
-    //   display: none;
-    // }
+    @media (max-width: 480px) {
+      width: 60%;
+    }
   }
 }
 .welcom_aboutUs {
@@ -76,7 +74,7 @@
   }
   @media (max-width: 480px) {
     padding: 0px;
-    gap: 0px;
+    gap: 15pxpx;
   }
 }
 .containe_element_about {
