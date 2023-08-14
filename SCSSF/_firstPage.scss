@@ -4,7 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Martel Sans', sans-serif;
+  font-family: "Martel Sans", sans-serif;
 
   a {
     text-decoration: none;
@@ -96,7 +96,7 @@ body {
 }
 .nev_container {
   max-width: 1024px;
-  min-height: 90vh;
+  // min-height: 90vh;
   @media (max-width: 768px) {
     width: 100%;
   }

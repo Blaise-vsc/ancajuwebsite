@@ -4,3 +4,4 @@
 -change the font body: font-family: 'Martel Sans', sans-serif;
 3 changes: -m "uboutUs.html" addind swipper
 4 added: -m "settit in swipper.scss" swipper=width,hiegth
+5 change: -m "aboutus.scss

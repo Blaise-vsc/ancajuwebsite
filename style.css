@@ -99,7 +99,6 @@ body a:hover {
 
 .nev_container {
   max-width: 1024px;
-  min-height: 90vh;
 }
 @media (max-width: 768px) {
   .nev_container {
@@ -421,7 +420,6 @@ body a:hover {
 @media (max-width: 480px) {
   .containe_element_about {
     padding: 0px;
-    gap: 15px;
     padding: 3rem 2rem;
   }
 }
