@@ -4,7 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Martel Sans', sans-serif;
 
   a {
     text-decoration: none;
@@ -172,7 +172,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     color: black;
     font-size: 110%;
@@ -210,8 +210,8 @@ body {
   gap: 1rem;
   // background-color: aqua;
   .bienVenu {
-    font-family: "Aclonica", sans-serif;
-    // font-family: "Lobster Two", cursive;
+    // font-family: "Aclonica", sans-serif;
+    font-family: "Martel Sans", sans-serif;
     color: white;
     font-size: 200%;
     @media (max-width: 768px) {
