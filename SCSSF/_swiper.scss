@@ -4,9 +4,13 @@
 }
 .swiper-button-next {
   //   background: black;
-  color: rgba(0, 0, 0, 0.582);
+  color: rgba(0, 0, 0, 0.205);
 }
 .swiper-button-prev {
   //   background: black;
-  color: rgba(0, 0, 0, 0.582);
+  color: rgba(0, 0, 0, 0.205);
+}
+.swiper-pagination-bullet-active {
+  //   background: black;
+  background-color: rgba(0, 0, 0, 0.692);
 }
