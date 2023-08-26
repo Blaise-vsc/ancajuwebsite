@@ -7,12 +7,17 @@
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 10px;
 }
+
 .autoFit {
+  width: 100%;
   position: relative;
+  padding: 5px auto;
   img {
     width: 100%;
     border-radius: 10px;
   }
+ @media(max-width: 687px){
+  
   @media (max-width: 260px) {
     width: 100%;
     display: flex;
@@ -23,4 +28,5 @@
       border-radius: 10px;
     }
   }
+ }
 }
