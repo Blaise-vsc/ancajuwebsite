@@ -12,14 +12,6 @@ const swiper = new Swiper(".swiper", {
   //   shadowScale: 0.94,
   // },
 
-  slidesPerView: 2,
-  spaceBetween: 7,
-  freeMode: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-
   //
   // If we need pagination
   pagination: {

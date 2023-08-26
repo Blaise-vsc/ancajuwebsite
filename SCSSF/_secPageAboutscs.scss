@@ -12,21 +12,24 @@
   width: 100%;
   position: relative;
   padding: 5px auto;
+  margin-left: 6rem;
   img {
-    width: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
   }
- @media(max-width: 687px){
-  
-  @media (max-width: 260px) {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    img {
-      width: 70%;
-      border-radius: 10px;
+  @media (max-width: 687px) {
+    margin-left: 0rem;
+    @media (max-width: 260px) {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: 120%;
+        border-radius: 10px;
+      }
     }
   }
- }
 }

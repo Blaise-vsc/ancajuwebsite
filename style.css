@@ -535,10 +535,17 @@ body a:hover {
   width: 100%;
   position: relative;
   padding: 5px auto;
+  margin-left: 6rem;
 }
 .autoFit img {
-  width: 100%;
+  width: 80%;
+  height: 80%;
   border-radius: 10px;
+}
+@media (max-width: 687px) {
+  .autoFit {
+    margin-left: 0rem;
+  }
 }
 @media (max-width: 687px) and (max-width: 260px) {
   .autoFit {
@@ -548,7 +555,8 @@ body a:hover {
     justify-content: center;
   }
   .autoFit img {
-    width: 70%;
+    width: 100%;
+    height: 120%;
     border-radius: 10px;
   }
 }
