@@ -40,9 +40,11 @@ form {
 h1 {
   text-align: center;
   color: $primary-color;
-  margin-bottom: 30px;
+  padding-bottom: 3rem;
 }
-
+.honemargin {
+  margin-bottom: 1rem;
+}
 label {
   display: block;
   margin-bottom: 10px;
