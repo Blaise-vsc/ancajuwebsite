@@ -804,7 +804,7 @@ input[type=date],
 input[type=number],
 textarea {
   width: 100%;
-  padding: 5px;
+  padding: 8px;
   border: 1px solid #ced4da;
   border-radius: 4px;
   margin-bottom: 20px;
