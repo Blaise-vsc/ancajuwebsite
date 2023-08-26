@@ -788,6 +788,14 @@ h1 {
   margin-bottom: 1rem;
 }
 
+.honemarginUnderContactH {
+  margin-bottom: 14px;
+}
+
+.contactBold {
+  font-weight: bold;
+}
+
 label {
   display: block;
   margin-bottom: 10px;
