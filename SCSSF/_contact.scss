@@ -71,7 +71,7 @@ li {
     margin-bottom: 45px;
   }
 }
-.map img {
+.map {
   max-width: 60%;
   height: auto;
   border-radius: 5px;
@@ -82,4 +82,9 @@ li {
 .maito {
   text-decoration: none;
   color: black;
+}
+.iframe {
+  width: 100%;
+  height: 400px;
+  margin: 1px auto;
 }
