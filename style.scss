@@ -1,14 +1,9 @@
-@import "./SCSSF/variable";
-@import "./SCSSF/firstPage";
-@import "./SCSSF/aboutU";
-@import "./SCSSF/secPageAboutscs";
-@import "./SCSSF/galerie";
-@import "./SCSSF/thirdpage";
-@import "./booking";
-@import "./SCSSF/form";
-@import "./SCSSF/thanks";
-@import "./SCSSF/swiper";
-@import "./galary";
-@import "./SCSSF/contact";
-@import "./SCSSF/service";
-@import "./SCSSF/scrool";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import "./myscss/indexsass";
+@import "./myscss/secondContainer";
+@import "./myscss/message";
+@import "./myscss/thirdSass";

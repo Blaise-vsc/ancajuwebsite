@@ -1,0 +1,79 @@
+  <!--  -->
+      <div class="socialMedia socialMedia_HIDDEN">
+        
+        </a>
+        <a title="Page Facebook" href="https://www.facebook.com/ancaju243">
+          <i class="bx bxl-facebook-circle"></i>
+        </a>
+        <a
+          title="Whatsapp"
+          href="https://www.whatsapp.com/catalog/243970030810/">
+          <i class="bx bxl-whatsapp"></i>
+        </a>
+        <a
+          title="Compte Instagrame"
+          href="https://instagram.com/ancaju4?igshid=MzRlODBiNWFlZA==">
+          <i class="bx bxl-instagram-alt"></i>
+        </a>
+
+        <a
+          title="Compte Linkdin"
+          href=" https://www.linkedin.com/in/ancaju-guest-house-05b44827b/">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a
+          title="Localisation Map"
+          href="https://goo.gl/maps/M1s318teEZxjUdqbA">
+          <i class="bx bxs-map"></i>
+        </a>
+      </div>
+      <!--  -->
+      <nav class="w-full flex flex-row justify-between p-8 bg-gray-200 >
+        <div>
+          <a href="">À propos de nous</a>
+        </div>
+        <div class="">
+          <a href="./galery.html">Galerie</a>
+        </div>
+        <div class="">
+          <a href="./service.html">Services</a>
+          <div class="dropdown">
+            <i class="bx bxs-down-arrow"></i>
+          </div>
+        </div>
+        <div class="">
+          <a href="./contact.html">Contact</a>
+          <div class="dropdown">
+            <i class="bx bxs-down-arrow"></i>
+          </div>
+        </div>
+  
+        <div class="">
+          <a class="" href="./booking.html">Réservez maintenant</a>
+        </div>
+        
+        <div class="dropdown hidden">
+          <i class="bx bx-menu dropbtn"></i>
+          <div class="dropdown-content">
+            <a href="./galery.html">Galerie</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./service.html">Services </a>
+            <a href="./booking.html">Réserver</a>
+          </div>
+        </div>
+      </nav>
+
+      // @import "./SCSSF/variable";
+// @import "./SCSSF/firstPage";
+// @import "./booking";
+// @import "./galary";
+// @import "./SCSSF/aboutU";
+// @import "./SCSSF/contact";
+// @import "./SCSSF/form";
+// @import "./SCSSF/galerie";
+// @import "./SCSSF/scrool";
+// @import "./SCSSF/secPageAboutscs";
+// @import "./SCSSF/service";
+// @import "./SCSSF/swiper";
+// @import "./SCSSF/thanks";
+// @import "./SCSSF/thirdpage";

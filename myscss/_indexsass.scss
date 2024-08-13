@@ -1,0 +1,173 @@
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+.logo {
+  height: 40px;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.absolutes {
+  position: relative;
+}
+#toggleButton {
+  padding: 10px 20px;
+  //   background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+#toggleElement {
+  position: fixed;
+  right: -300px;
+  top: 48px;
+  width: 200px;
+  min-height: 100px;
+  background-color: #3498db;
+  transition: right 0.3s ease-in-out;
+
+  &.visible {
+    right: 0px; // Adjust to desired position when visible
+  }
+}
+.first-container {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.091), black),
+    url(../reucp/bgroom.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100hv;
+}
+.dream_section {
+  height: 90%;
+  width: 100vw;
+  @media (max-width: 786px) {
+    height: 85%;
+  }
+}
+.landingPage {
+  width: 100%;
+  height: 70vh;
+
+  color: #fff;
+}
+.ggg {
+  padding: auto;
+}
+.dream-one {
+  width: 10%;
+  @media (max-width: 786px) {
+    width: 20%;
+  }
+}
+.dream-two {
+  width: 90%;
+  a {
+    width: 100px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #facc15;
+  }
+  gap: 30px;
+  @media (max-width: 786px) {
+    height: 80%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: left;
+}
+.dream-footer {
+  height: 10%;
+  @media (max-width: 786px) {
+    height: 7%;
+    @media (max-width: 786px) {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+}
+.language {
+  background-color: #00000030;
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top: auto;
+}
+.header {
+  height: 10%;
+}
+//
+.bar-footer {
+  width: 33.3%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  @media (max-width: 786px) {
+    width: 100%;
+    align-items: start;
+    padding: 3px 6px;
+  }
+  .p {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    @media (max-width: 786px) {
+      width: 10%;
+      align-items: center;
+    }
+  }
+  div {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 786px) {
+      width: 90%;
+      align-items: left;
+    }
+  }
+}
+
+.bar-one {
+  background-color: #facc15;
+}
+
+.bar-two {
+  background-color: #d97706;
+}
+
+.bar-tree {
+  background-color: #78350f;
+  @media (max-width: 786px) {
+    display: none;
+  }
+}
+i {
+  @media (max-width: 786px) {
+    height: 15px;
+
+    width: 100%;
+    height: 100%;
+  }
+}
+.a {
+  @media (max-width: 768px) {
+    padding-left: 5px;
+    background: linear-gradient(to left, #00000024, #ffffff6e);
+    backdrop-filter: blur(2px);
+    cursor: pointer;
+  }
+}

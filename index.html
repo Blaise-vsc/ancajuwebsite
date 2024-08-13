@@ -18,11 +18,15 @@
 
     <meta rel="canonical" href="https://lubumbashiancaju.netlify.app/" />
     <meta rel="robots" content="index,follow" />
-    <meta property="article:publisher" content="https://www.facebook.com/ancaju243">
-<meta property="article:author" content="https://www.linkedin.com/in/ancaju-guest-house-05b44827b/">
-<meta property="article:section" content="Location">
-<meta property="article:tag" content="Guest House">
-<link rel="canonical" href="https://goo.gl/maps/M1s318teEZxjUdqbA">
+    <meta
+      property="article:publisher"
+      content="https://www.facebook.com/ancaju243" />
+    <meta
+      property="article:author"
+      content="https://www.linkedin.com/in/ancaju-guest-house-05b44827b/" />
+    <meta property="article:section" content="Location" />
+    <meta property="article:tag" content="Guest House" />
+    <link rel="canonical" href="https://goo.gl/maps/M1s318teEZxjUdqbA" />
 
     <!-- link font -->
     <link
@@ -38,150 +42,479 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet" />
     <!--  -->
-    
+
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet" />
-      <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!--  -->
+    <link rel="shortcurt icon" href="./images/fave-icon.svg" />
+    <link rel="stylesheet" href="./app.js" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet" />
+    <!--  -->
     <title>Ancaju Guest House Séjour mémorable à Lubumbashi</title>
   </head>
-  <body>
-    <div class="container">
-      <header>
-        <div class="logo">
+  <body class="w-[100vw] flex flex-col">
+    <div class="first-container w-full flex flex-col h-screen items-center">
+      <header
+        class="header w-full flex justify-between items-center  text-white ">
+        <div class="logo pl-6">
           <img
             title="Logo de l'Ancaju Guest House à Lubumbashi, Congo-Kinshasa"
             src="./logos/white.webp"
             alt="Logo de l'Ancaju Guest House à Lubumbashi, Congo-Kinshasa, avoir un Séjour de qualité dans a lubumbashi dans la commune annexe du Haut-Katanga" />
         </div>
 
-        <div class="socialMedia">
-          
-          <a title="Page Facebook" href="https://www.facebook.com/ancaju243">
-            <i class="bx bxl-facebook-circle"></i>
-          </a>
-          <a
-            title="Whatsapp"
-            href="https://www.whatsapp.com/catalog/243970030810/">
-            <i class="bx bxl-whatsapp"></i>
-          </a>
-          <a
-            title="Compte Instagrame"
-            href="https://instagram.com/ancaju4?igshid=MzRlODBiNWFlZA==">
-            <i class="bx bxl-instagram-alt"></i>
-          </a>
+        <!--  -->
+       
+        <div id="toggleButton">
+          <button
+            type="button"
+            class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+            id="menu-button"
+            aria-expanded="true"
+            aria-haspopup="true">
+            Options
+            <svg
+              class="-mr-1 h-5 w-5 text-gray-400"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true">
+              <path
+                fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
 
-          <a
-            title="Compte Linkdin"
-            href=" https://www.linkedin.com/in/ancaju-guest-house-05b44827b/">
-            <i class="bx bxl-linkedin"></i>
-          </a>
-          <a
-            title="Localisation Map"
-            href="https://goo.gl/maps/M1s318teEZxjUdqbA">
-            <i class="bx bxs-map"></i>
-          </a>
+        <div
+          id="toggleElement"
+          class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+          role="menu"
+          aria-orientation="vertical"
+          aria-labelledby="menu-button"
+          tabindex="-1">
+          <div class="py-1" role="none">
+            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+            <a
+              href="#"
+              class="block px-4 py-2 text-sm text-gray-700"
+              role="menuitem"
+              tabindex="-1"
+              id="menu-item-0"
+              >Contact</a
+            >
+            <a
+              href="#"
+              class="block px-4 py-2 text-sm text-gray-700"
+              role="menuitem"
+              tabindex="-1"
+              id="menu-item-1"
+              >Support</a
+            >
+            
+            <a
+              href="#"
+              class="block px-4 py-2 text-sm text-gray-700"
+              role="menuitem"
+              tabindex="-1"
+              id="menu-item-2"
+              >License</a
+            >
+            <button  data-lang="en"
+            data-en="Switch to English"
+            data-fr="Passer à l'anglais" class="block px-4 py-2 text-sm text-gray-700" id="toggleBtn">Passer à l'anglais</button>
+          </div>
         </div>
       </header>
-      <div class="nev_container">
-        <nav class="welcomeHeader headerCommon">
-          <div
-            class="nav_childenInTheSecHeader acceil acceil_none_in_sscrn drowdown0">
-            <a class="homeIndex" href="#">Accueil</a>
-          </div>
-          <div class="nav_childenInTheSecHeader">
-            <a href="./aboutUs.html">À propos de nous</a>
-          </div>
-          <div class="nav_childenInTheSecHeader drowdown0">
-            <a href="./galery.html">Galerie</a>
-          </div>
-          <div class="nav_childenInTheSecHeader drowdown0">
-            <a href="./service.html">Services</a>
-            <div class="dropdown">
-              <i class="bx bxs-down-arrow"></i>
-            </div>
-          </div>
-          <div class="nav_childenInTheSecHeader drowdown0">
-            <a href="./contact.html">Contact</a>
-            <div class="dropdown">
-              <i class="bx bxs-down-arrow"></i>
-            </div>
-          </div>
+      <!--  -->
+      <div
+        class="dream_section flex flex-row items-center text-white pl-0 p-2 pr-5 md:p-9 gap-2 md:gap-5">
+        <div class="dream-one">
+          <div class="flex flex-col gap-1">
+            <a
+              class="a"
+              title="Page Facebook"
+              href="https://www.facebook.com/ancaju243">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              class="a cursu"
+              title="Whatsapp"
+              href="https://www.whatsapp.com/catalog/243970030810/">
+              <i class="bx bxl-whatsapp"></i>
+            </a>
 
-          <div class="nav_childenInTheSecHeader booknown">
-            <a href="./booking.html">Réservez maintenant</a>
-          </div>
-          <div class="dropdown">
-            <i class="bx bx-menu dropbtn"></i>
-            <div class="dropdown-content">
-             
-              <a href="./galery.html">Galerie</a>
-              <select class="select" name="select" id="option">
-                <option value="chambre">Chambre</option>
-                <option value="restaurant">Restaurant</option>
-                <option value="salle">Salle</option>
-                <option value="repas">repas</option>
-              </select>
-              <a href="./contact.html">Contact</a>
-              <a href="./service.html">Services </a>
-              <a href="./booking.html">Réserver</a>
-            </div>
-          </div>
-        </nav>
+            <a
+              class="a"
+              title="Compte Linkdin"
+              href=" https://www.linkedin.com/in/ancaju-guest-house-05b44827b/">
+              <i class="bx bxl-linkedin"></i>
+            </a>
 
-        <div class="nav_containinMiddle_element containinMiddle_index">
-          <h1 id="welcomeIndex" class="bienVenu">Bienvenue à Ancaju Guest House.</h1>
-          <div class="underWelcome">
-            <div class="img_underWelcome">
-              <img src="./logos/line-white.webp" alt="" />
-            </div>
-            <h2 class="alubumbashi">A LUBUMBASHI</h2>
-            <div class="img_underWelcome">
-              <img src="./logos/line-white.webp" alt="" />
-            </div>
+            <p class="vertical-text">lubumbashi</p>
           </div>
-          <a href="./aboutUs.html">
-            <div class="seeallabout">
-              <p>Explorez Ancaju</p>
-            </div>
-          </a>
         </div>
-
-        <footer class="headerCommon">
-          
-        </footer>
+        <div class="dream-two w-[60%] flex flex-col pl-0 md:pl-4 md:pl-0">
+          <h1
+            data-lang="en"
+            data-en="Enjoy your 
+            Dream vacation."
+            data-fr=" Profitez de vos 
+            Vacances de Rêve."
+            class="md:text-4xl text-3xl">
+            Profitez de vos <br />
+            Vacances de Rêve.
+          </h1>
+          <p
+            data-lang="en"
+            data-en="Experience unparalleled luxury and make your vacation dreams come true in our hotel. 
+            at Ancaju"
+            data-fr="Vivez un luxe inégalé et réalisez vos rêves de vacances dans notre hôtel.
+            chez Ancaju"
+            class="md:text-xl text-md">
+            Vivez un luxe inégalé et réalisez vos rêves de vacances dans notre
+            hôtel. <br />
+            chez Ancaju
+          </p>
+          <a
+            data-lang="en"
+            data-en="Reception"
+            data-fr="Réception"
+            href="tel:+243970030810"
+            class=""
+            >Réception</a
+          >
+        </div>
       </div>
       <!--  -->
-      <div class="socialMedia socialMedia_HIDDEN">
-        
-        </a>
-        <a title="Page Facebook" href="https://www.facebook.com/ancaju243">
-          <i class="bx bxl-facebook-circle"></i>
-        </a>
-        <a
-          title="Whatsapp"
-          href="https://www.whatsapp.com/catalog/243970030810/">
-          <i class="bx bxl-whatsapp"></i>
-        </a>
-        <a
-          title="Compte Instagrame"
-          href="https://instagram.com/ancaju4?igshid=MzRlODBiNWFlZA==">
-          <i class="bx bxl-instagram-alt"></i>
-        </a>
 
-        <a
-          title="Compte Linkdin"
-          href=" https://www.linkedin.com/in/ancaju-guest-house-05b44827b/">
-          <i class="bx bxl-linkedin"></i>
-        </a>
-        <a
-          title="Localisation Map"
-          href="https://goo.gl/maps/M1s318teEZxjUdqbA">
-          <i class="bx bxs-map"></i>
-        </a>
-      </div>
-      <!--  -->
+      <nav
+        class="bg-gray-400 w-full dream-footer flex flex-col md:flex-row justify-between text-white">
+        <div class="bar-footer bar-one">
+          <p class="p md:text-2xl text-xl"><i class="bx bx-time-five"></i></p>
+          <div class="text-sm">
+            <p
+              class="hidden md:block font-bold text-md"
+              data-lang="en"
+              data-en="Hour of work"
+              data-fr="Heure du travaille">
+              Heure du travaille
+            </p>
+            <p
+              class="md:block hidden"
+              data-lang="en"
+              data-en="Continuous work 24 hours a day/7 days a week"
+              data-fr="Travail en continu 24 heures sur 24/ Et 7 jours sur 7">
+              Travail en continu 24 heures sur 24/ Et 7 jours sur 7
+            </p>
+          </div>
+        </div>
+        <div class="bar-footer bar-two">
+          <p class="p md:text-2xl text-xl"><i class="bx bx-wifi"></i></p>
+          <div class="text-sm">
+            <p
+              data-lang="en"
+              data-en="Amenities"
+              data-fr="Commodités"
+              class="hidden md:block font-bold">
+              Commodités
+            </p>
+            <p
+              class="md:block hidden"
+              data-lang="en"
+              data-en="Meeting Room. Executive Lounge. Parking. Restaurant. DSTV. Wi-Fi"
+              data-fr="Salle de réunion. Salon exécutif. Parking. Restaurant. Wi-Fi">
+              DSTV Wi-Fi
+            </p>
+          </div>
+        </div>
+        <div class="bar-footer bar-tree">
+          <p class="p md:text-2xl text-xl"><i class="bx bx-home"></i></p>
+          <div class="text-sm">
+            <p
+              data-lang="en"
+              data-en="Instalations"
+              data-fr="Instalations"
+              class="hidden md:block font-bold">
+              Instalation
+            </p>
+            <p
+              class="md:block hidden"
+              data-lang="en"
+              data-en="Meeting room. Executive lounge. Restaurant parking. Wedding room"
+              data-fr="Salle de réunion. Salon exécutif. Parking Restaurant. Salle de mariage">
+              Salle de réunion. Salon exécutif. Parking Restaurant. Salle de
+              mariage
+            </p>
+          </div>
+        </div>
+      </nav>
     </div>
-    <script src="./apps.js"></script>
+    <!-- second container -->
+    <div class="seconde_container flex flex-row">
+      <div class="image-display msgcontainer">
+        <img
+          id="largeImage"
+          src="https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg"
+          alt="Large Display" />
+
+        <!-- IMG ABSOLUTE -->
+        <div class="grid-container imgAbsolute">
+          <div class="grid-item">
+            <img src="./reucp/sallon.webp" alt="Image 1" class="grid-image" />
+            <!--  -->
+            <!--  -->
+          </div>
+          <div class="grid-item">
+            <img src="./reucp/room.webp" alt="Image 2" class="grid-image" />
+          </div>
+          <div class="grid-item">
+            <img src="./reucp/room2.webp" alt="Image 3" class="grid-image" />
+          </div>
+          <div class="grid-item">
+            <img src="./reucp/room2.webp" alt="Image 4" class="grid-image" />
+          </div>
+          <div class="grid-item">
+            <img src="./reucp/room3.webp" alt="Image 5" class="grid-image" />
+          </div>
+        </div>
+        <!--  -->
+      </div>
+      <!-- MESSAGE ABSOLUTE -->
+      <section class="contact msgmessage">
+        <h2 data-lang="en" data-en="Contact US" data-fr="Contactez nous">
+          Contactez nous
+        </h2>
+        <form
+          action="https://formsubmit.co/23a3e1d51c2c9f28db7b4c84df7298b2"
+          method="POST"
+          id="booking-form">
+          <label
+            data-lang="en"
+            data-en="Name and Last-Name"
+            data-fr="Nom et Post-Nom"
+            for="name"
+            >Nom et Post-Nom</label
+          >
+          <input
+            class="inputT"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Insérez les deux noms."
+            required />
+
+          <label
+            data-lang="en"
+            data-en="Whatsapp Number"
+            data-fr="Num Whatsapp"
+            for="number"
+            >Num Whatsapp</label
+          >
+          <input
+            class="inputT"
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder="Insérez votre numéro de téléphone."
+            required />
+
+          <label data-lang="en" data-en="Mail" data-fr="Email" for="email"
+            >Email</label
+          >
+          <input
+            class="input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Insérez votre adresse e-mail" />
+
+          <label
+            data-lang="en"
+            data-en="check-in-date"
+            data-fr="Date d'arrivée"
+            for="check-in-date"
+            >Date d'arrivée</label
+          >
+
+          <input
+            class="input"
+            type="date"
+            id="check-in-date"
+            name="check-in-date"
+            required />
+
+          <label
+            for="check-out-date"
+            data-en="check-out-date"
+            data-fr="Date de départ"
+            for="check-out-date"
+            >Date de départ</label
+          >
+          <input
+            class="input"
+            type="date"
+            id="check-out-date"
+            name="check-out-date"
+            >Message</label
+          >
+          <textarea
+            class="input"
+            id="message"
+            name="message"
+            rows="3"></textarea>
+
+          <!--  -->
+          <input
+            type="hidden"
+            name="_next"
+            value="https://ancaju.netlify.app/thanks.html" />
+          <input type="hidden" name="_subject" value="Commande d'un repas" />
+          <input
+            type="hidden"
+            name="_cc"
+            value="blaisebetua23@gmail.com,contact@ancaju.com" />
+
+          <input
+            type="hidden"
+            name="_autoresponce"
+            value="merci de nous  choisie ancaja guest house, Nous vous contactons dans quelque minutes" />
+          <input type="hidden" name="_template" value="table" />
+          <button data-lang="en" data-en="Send" data-fr="Envoyer" type="submit">
+            Envoyer
+          </button>
+        </form>
+      </section>
+    </div>
+    <!-- messege -->
+    <section class="contact md:hidden">
+      <h2 data-lang="en" data-en="Contact US" data-fr="Contactez nous">
+        Contactez nous
+      </h2>
+      <form
+        action="https://formsubmit.co/23a3e1d51c2c9f28db7b4c84df7298b2"
+        method="POST"
+        id="booking-form">
+        <label
+          data-lang="en"
+          data-en="Name and Last-Name"
+          data-fr="Nom et Post-Nom"
+          for="name"
+          >Nom et Post-Nom</label
+        >
+        <input
+          class="inputT"
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Insérez les deux noms."
+          required />
+
+        <label
+          data-lang="en"
+          data-en="Whatsapp Number"
+          data-fr="Num Whatsapp"
+          for="number"
+          >Num Whatsapp</label
+        >
+        <input
+          class="inputT"
+          type="number"
+          id="phone"
+          name="phone"
+          placeholder="Insérez votre numéro de téléphone."
+          required />
+
+        <label data-lang="en" data-en="Mail" data-fr="Email" for="email"
+          >Email</label
+        >
+        <input
+          class="input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Insérez votre adresse e-mail" />
+
+        <label
+          data-lang="en"
+          data-en="check-in-date"
+          data-fr="Date d'arrivée"
+          for="check-in-date"
+          >Date d'arrivée</label
+        >
+
+        <input
+          class="input"
+          type="date"
+          id="check-in-date"
+          name="check-in-date"
+          required />
+
+        <label
+          for="check-out-date"
+          data-en="check-out-date"
+          data-fr="Date de départ"
+          for="check-out-date"
+          >Date de départ</label
+        >
+        <input
+          class="input"
+          type="date"
+          id="check-out-date"
+          name="check-out-date"
+          required />
+
+        <label data-lang="en" data-en="Message" data-fr="Message" for="message"
+          >Message</label
+        >
+        <textarea class="input" id="message" name="message" rows="5"></textarea>
+
+        <!--  -->
+        <input
+          type="hidden"
+          name="_next"
+          value="https://ancaju.netlify.app/thanks.html" />
+        <input type="hidden" name="_subject" value="Commande d'un repas" />
+        <input
+          type="hidden"
+          name="_cc"
+          value="blaisebetua23@gmail.com,contact@ancaju.com" />
+
+        <input
+          type="hidden"
+          name="_autoresponce"
+          value="merci de nous  choisie ancaja guest house, Nous vous contactons dans quelque minutes" />
+        <input type="hidden" name="_template" value="table" />
+        <button data-lang="en" data-en="Send" data-fr="Envoyer" type="submit">
+          Envoyer
+        </button>
+      </form>
+    </section>
+    <!-- third section -->
+
+    <div class="thith-container">
+      <!-- Map section -->
+      <section class="map-section">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.105476965525!2d27.443038374625576!3d-11.657246634769809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19723d43649d34ef%3A0x548115783cff5c18!2sANCAJU%20GUEST%20HOUSE!5e1!3m2!1sen!2sug!4v1723541558456!5m2!1sen!2sug"  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section">
+          <h2 data-lang="en" data-en="Contact US" data-fr="Contactez nous">Contactez Nous</h2>
+          <p><strong data-lang="en" data-en="Email:" data-fr="Email:">Email:</strong> hotel@example.com</p>
+          <p><strong data-lang="en" data-en="Call:" data-fr="Appel:">Call:</strong> +123 456 7890</p>
+          <p><strong data-lang="en" data-en="Address:" data-fr="Adresse:">Address:</strong> 123 Hotel Street, City, Country</p>
+          <p><strong data-lang="en" data-en="Variant Prices:" data-fr="Variété de Prix:">Variété de Prix:</strong> From $100 to $300 per night</p>
+          <p><strong  data-lang="en" data-en="Additional Info:" data-fr="Variété de Prix:">Informations Complémentaires:</strong> Feel free to contact us for any inquiries.</p>
+      </section>
+  </div>
+
+    <!-- ............................... -->
+
+    <script src="./app.js"></script>
   </body>
 </html>
